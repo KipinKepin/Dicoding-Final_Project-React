@@ -16,8 +16,8 @@ const NoteList = () => {
   const archivedNotes = filteredNotes.filter((note) => note.archived);
 
   return (
-    <div className="bg-white shadow-md rounded-lg p-6 my-12">
-      <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">
+    <div className="bg-white shadow-md rounded-lg p-6 my-6">
+      <h2 className="text-2xl font-bold mb-12 text-gray-800 text-center">
         Daftar Catatan
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
